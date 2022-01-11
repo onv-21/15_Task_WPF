@@ -1,0 +1,284 @@
+﻿<Window x:Class="_15_Task_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_15_Task_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1000">
+    <Grid>
+        <FlowDocumentReader>
+            <FlowDocument>
+                <Paragraph>
+                    <Floater Width="200" HorizontalAlignment="Right">
+                        <BlockUIContainer>
+                            <Image Source="Data/1.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Hyperlink FontSize="20" FontWeight="Black" NavigateUri="https://ru.wikipedia.org/wiki/BIM">Building Information Modeling (BIM)</Hyperlink>
+                </Paragraph>
+                <Paragraph>
+                    <Bold>
+                        <Italic>
+                            Building Information Modeling
+                        </Italic>
+                    </Bold>
+                    (BIM) - в переводе на русский: информационное моделирование здания. Аббревиатура обозначает комплекс мероприятий и работ по управлению жизненным циклом здания, начиная от проекта и заканчивая демонтажем. BIM технологии охватывают проектирование, строительство, эксплуатацию, ремонт здания или иного сооружения.
+                </Paragraph>
+                <Paragraph>
+                    Основными достоинствами BIM моделей является их динамичность,
+т. е. при изменении отдельных элементов модели происходит автоматическое обновление данных, параметров связанных документов.
+т. е. при изменении отдельных элементов модели происходит автоматическое обновление данных, параметров связанных документов.
+                </Paragraph>
+                <Paragraph>
+                    <Floater Width="200" HorizontalAlignment="Right">
+                        <BlockUIContainer>
+                            <Image Source="Data/2.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    На рисунке указаны возможности BIM проектирования, реализация
+проекта начиная со стадии технического задания и заканчивая сдачу
+в эксплуатацию (или например ремонт, реконструкция, демонтаж).
+                </Paragraph>
+                <Paragraph>
+                    Основными трудностями, возникающими в результате внедрения BIM
+в производство, является:
+                </Paragraph>
+                <List MarkerStyle="Disc">
+                    <ListItem>
+                        <Paragraph>
+                            высокая стоимость покупки необходимого оборудования и программного обеспечения;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            дефицит квалифицированных кадров, подготовленных для работы
+с BIM-технологиями;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            проблемы с нормативной базой, государственными стандартами,
+а также отсутствие базы моделей для проектирования объектов;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            отсутствие перечня типовых решений;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            отсутствие прозрачного документооборота.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    Несмотря на некоторые недостатки, использование данной технологии
+позволяет выявить ряд положительных эффектов:
+                </Paragraph>
+                <List MarkerStyle="Disc">
+                    <ListItem>
+                        <Paragraph>
+                            значительная экономия затрат на этапе строительства;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            повышение точности планирования и прозрачности;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            сокращение временных потерь на внутрифирменные согласования;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            слаженная командная работа;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            возможность использовать инновационные конструкторские решения;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            обеспечение единого видения целей проекта всеми его участниками;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            сократить продолжительность работ на 10-12%, что приводит также к сокращению накладных расходов.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    Программными комплексами, которые чаще всего встречаются на
+Российском рынке, являются
+                    <Italic>Autodesk Revit, Tekla Structures, GraphiSoft
+ArchiCad</Italic>. Каждая из этих программ имеет свои достоинства и неостатки,
+однако в большей степени имеет значении специализация того или иного
+предприятия. Например, предприятиям, специализирующимся на выпуске
+проектов металлоконструкций, больше подойдет
+                    <Italic>Tekla;</Italic> фирмам, занятым
+проектированием железобетонных конструкций, –
+                    <Italic>Autodesk Revit;</Italic> фирмам,
+занимающимся проектированием частных домов и небольших объектов, и,
+естественно, архитектурным мастерским стоит присмотреться к
+                    <Italic>GraphiSoft
+ArchiCAD</Italic>  и т. д
+                </Paragraph>
+                <Paragraph>
+                   В таблице представлены основные преимущества некоторых программных комплексов.
+                </Paragraph>
+                <Section FontFamily="Times New Roman" FontSize="14">
+                    <Table Background="LightBlue">
+                        <Table.Columns>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph FontWeight="Bold" TextAlignment="Center">
+                                        Программа
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph FontWeight="Bold" TextAlignment="Center">
+                                        Появление на рынке
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph FontWeight="Bold" TextAlignment="Center">
+                                        Основные преимущества
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph FontWeight="Bold" TextAlignment="Center">
+                                        Возможность обучения
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Autodesk Revit
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Покупка Autodesk - 2002, Revit Structure - 2005, Revit MEP - 2006
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Закрывает все разделы проектирования, возможность совместной работы. Возможность реализовать 4d, 5d, 6d моделирование
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Есть (получение сертификата), видеокурсы
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Tekla Structures
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Покупка Trimble - 2011; Tekla Structures - 2015
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Упор на конструктивную составляющую, возможность совместной работы. Open BIM
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Есть (получение сертификата), видеокурсы
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Graphisoft ArchiCad
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Покупка Nemetcschek - 2007; VR - 1994, ArchiCad 4.55 - 1995, IFC - 2001
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Упор на архитектуру, бустрое чтение и обработка данных. Open BIM. Совместная работа TeamWork - 1997
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Видеокурсы
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Allplan
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Allplan - 1984
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Проработанный 2D редактор, стоимость, упор на конструктивную составляющую составляющую, связь с ЛИРА, SCAD; Open BIM
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Видеокурсы
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        АСКОН
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        КОМПАС-3D - 1997, RENGA - 2015
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Отрасли машиностроение, ПГС; Российское ПО, IFC4; Open BIM
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell BorderBrush="Black" BorderThickness="1" Padding="5">
+                                    <Paragraph>
+                                        Есть (получение сертификата), видеокурсы
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </Section>
+            </FlowDocument>
+        </FlowDocumentReader>
+
+    </Grid>
+</Window>
